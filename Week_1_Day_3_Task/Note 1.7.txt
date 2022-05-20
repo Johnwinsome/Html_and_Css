@@ -1,0 +1,10 @@
+						1.7 meta Element
+						----------------
+
+- The meta elements within the head container. The meta elements provide information about the web page.
+
+- The meta element is a void element (not a container), so it does not have an end tag. Note how there are 
+   no end tags for the three meta elements. In everyday speech and in HTML, “meta” means “about itself.”
+
+- Many web programmers end their void elements with a space and a slash, but we recommend omitting them.
+  For example:	 <meta charset="utf-8">

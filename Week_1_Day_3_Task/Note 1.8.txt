@@ -1,0 +1,56 @@
+							1.8 HTML Attributes
+   						       ---------------------
+
+- Charset is an attribute for a meta element. Most attributes have a value assigned to them. In this example, charset is assigned thevalue
+   "utf-8". Although most attributes have a value assigned to them, some do not.
+
+- A string is a group of zero or morecharacters surrounded by a pair of double quotes (“) or a pair of single quotes (‘), with double
+  quotes preferred.
+
+- Attributes are more common with void elements, but they can be used with container elements as well. 
+
+- The lang attribute tells the browser that the element is using a particular language for its content. For web pages written in English, 
+   use <html lang="en">.
+
+-The W3C’s Internationalization Activity group provides quite a few good reasons, and here are a few of them:
+
+	   ▸ Help search engines find web pages that use a particular language.
+	   ▸ Help spell-checker and grammar-checker tools work more effectively.
+	   ▸ Help browsers use appropriate fonts.
+	   ▸ Help speech synthesizers pronounce words correctly 
+
+## meta charset Element
+
+   - Syntax refers to the punctuation rules for code. Semantics refers to the meaning of the code. First up—the semantics for the meta 
+     charset element.
+
+   - For web page transmissions, the meta charset element specifies the encoding scheme. Normally, you should use a charset value of “utf-8”
+      because all modern browsers understand that value.
+
+   - The encoding scheme is sometimes referred to as a character set, and that’s what charset stands for. If you omit the meta charset element,
+     your web page will usually work because most browsers assume UTF-8 encoding by default. But don’t count on the default.
+
+## meta name Element
+
+   - Most of the meta elements use the name attribute to specify the type of information that’s being provided. Common values for the meta name 
+     attribute are author, description, and keywords. The name and content attributes go together. The name attribute’s value specifies the type
+     of thing that the content attribute’s value specifies. 
+
+   - The meta description element and also the meta keywords element help web search engines find your web page. In addition, the meta description 
+     element helps the person reading the code learn the purpose of the web page. The meta description element isn’t as important as the meta author
+     and meta charset elements. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
